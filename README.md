@@ -211,3 +211,15 @@ python demo.py
 
 1. **Local Model Cold Start**: Loading `SentenceTransformer("all-MiniLM-L6-v2")` into memory on initial boot takes $\approx 1.5$ seconds; once loaded, sub-millisecond in-memory inference is achieved.
 2. **Deterministic Mutation Safeguard**: The system is intentionally non-mutating. While it accurately assesses eligibility for cancellations, refunds, replacements, and address updates, transactional mutations are deliberately routed to human specialists.
+
+## 8.  🎥 Demo Video
+
+A 2–4 minute demonstration showing:
+
+- Knowledge-base question with citations
+- Order lookup
+- Multi-turn conversation
+- Human handoff / safe abstention
+- Evaluation suite running
+
+▶️ [Watch the full demo video](https://drive.google.com/file/d/19IUdxURwvDFjNhhLTnSHRXfe_EourDYg/view?usp=sharing)
